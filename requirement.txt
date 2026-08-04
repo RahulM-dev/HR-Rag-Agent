@@ -1,0 +1,25 @@
+## ENVIRONMENT VARIABLES
+python-dotenv
+
+## LANGCHAIN FRAMEWORK
+langchain
+langchain-core
+langchain-community
+
+
+## LLM PROVIDER
+langchain-groq
+langchain-text-splitters
+
+
+## VECTOOR DB STORE
+faiss-cpu
+
+
+## NOTEBOOK
+jupyter
+ipykernel
+
+
+## WEBAPP
+streamlit
