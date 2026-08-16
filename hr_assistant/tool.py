@@ -13,7 +13,7 @@ def create_search_tool(retriever):
     @tool
     def search_hr_policy(question : str):
         """
-        Search the HR policy documentfor information about leave, work from home, probation, notice period
+        Search the HR policy document for information about leave, work from home, probation, notice period
         reimbursement, code of conduct, holidays or exit process
         """
         matching_chunks = retriever.invoke(question)

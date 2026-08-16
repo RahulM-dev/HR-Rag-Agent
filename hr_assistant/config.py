@@ -2,6 +2,8 @@ import os
 from dotenv import load_dotenv
 
 
+load_dotenv()
+
 #SECRET VARIABLES
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 JINA_API_KEY = os.getenv("JINA_API_KEY")
@@ -23,7 +25,7 @@ DATA_FILE_PATH = os.path.join("data", "hr_policy.txt")
 
 #MODELS
 EMBEDDING_MODEL_NAME = "jina-embeddings-v2-base-en"
-LLM_MODEL_NAME = "open/gpt-oss-20b"
+LLM_MODEL_NAME = "openai/gpt-oss-20b"
 
 
 #TEXT SPLITTING CONFIGS

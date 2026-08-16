@@ -1,2 +1,4 @@
 hrragenv
 .env
+data/faiss_index/
+hr_assistant/__pycache__/
